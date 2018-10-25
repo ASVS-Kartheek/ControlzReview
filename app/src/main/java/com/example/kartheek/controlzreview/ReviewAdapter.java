@@ -69,7 +69,8 @@ public class ReviewAdapter extends RecyclerView.Adapter<ReviewAdapter.ReviewView
                 map.put("text",notifications.get(position));
                 map.put("event",eventNames.get(position));
 
-                //TODO: CHAnge this to 3
+                //TODO: CHAnge this to 3 ==> FOR RELEASE
+                //TODO: Change this to 2 ==> FOR TESTING
                 myRef.child("3").setValue(map);
 
                 Toast.makeText(context, "Notification Pushed", Toast.LENGTH_SHORT).show();
