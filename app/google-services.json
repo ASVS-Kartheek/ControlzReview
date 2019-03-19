@@ -52,12 +52,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:48569895794:android:e6e9fc607099fe27",
+        "mobilesdk_app_id": "1:48569895794:android:7a1da4619008dbcb",
         "android_client_info": {
-          "package_name": "com.android.dota.festmanager"
+          "package_name": "com.dota.pearl2019"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "48569895794-so2m9lc13grqsjgap6phvfsi5lftabpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dota.pearl2019",
+            "certificate_hash": "0f051b68d4ce8a5aca2c61438549d6e2e4465088"
+          }
+        },
         {
           "client_id": "48569895794-1dn149l4o0j2b4un7jh74u12kvr414kv.apps.googleusercontent.com",
           "client_type": 3
@@ -73,8 +81,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48569895794-1dn149l4o0j2b4un7jh74u12kvr414kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
